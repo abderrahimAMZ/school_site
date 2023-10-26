@@ -3,12 +3,12 @@ ul {
 }
 .header {
     width: auto;
-    height: 4rem;
+    height: 5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     border-bottom: 1px solid rgb(128, 128, 128);
     background-color: #BBB5DB;
+    padding-left: 20rem;
 }
 
 .logo {
@@ -21,6 +21,7 @@ ul {
     background-color: black;
     justify-content: flex-end;
     margin-bottom: 2rem;
+    padding-left: 14rem;
 }
 .sticky-top-1 {
     position: sticky;
@@ -30,4 +31,7 @@ ul {
 .sticky-top-2 {
     position: sticky;
     top: 100px;
+}
+.myfooter {
+    padding-top : 4rem;
 }
