@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+}
+.header {
+    width: auto;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    background-color: #BBB5DB;
+}
+
+.logo {
+    width: 3.3rem;
+    height: 3.3rem;
+
+}
+
+.mynav {
+    background-color: black;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+.sticky-top-1 {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.sticky-top-2 {
+    position: sticky;
+    top: 100px;
+}
